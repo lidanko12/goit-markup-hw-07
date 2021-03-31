@@ -2,19 +2,19 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.btn-lists {
+.filter-list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.btn-item {
+.filter-list__item {
   &:not(:last-child) {
     margin-right: 8px;
     justify-content: center;
   }
 }
 
-.btn {
+.filter-list__btn {
   min-width: 84px;
   padding: 6px 22px;
   font-weight: 500;

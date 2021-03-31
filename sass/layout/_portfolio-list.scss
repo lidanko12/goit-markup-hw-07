@@ -4,18 +4,18 @@
   margin-left: -30px;
   margin-top: 20px;
 }
-.portfolio-item {
+.portfolio-lists__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 20px;
 }
-.portfolio-text {
+.portfolio__content {
   padding: 20px 24px;
   background: var(--main-color);
   border: 1px solid var(--border-color);
   border-top: none;
 }
-.portfolio-name {
+.portfolio__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -24,13 +24,13 @@
   color: var(--nav-color);
 }
 
-.portfolio-desc {
+.portfolio__desc {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--tel-link-color);
 }
-.portfolio-link {
+.portfolio-lists__link {
   display: block;
   transition: var(--transition-duration) var(--transition-function);
   &:hover,

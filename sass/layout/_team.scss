@@ -11,12 +11,12 @@
   margin-top: -50px;
   text-align: center;
 }
-.team-list {
+.team-lists__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 50px;
 }
-.team-member {
+.team-lists__member {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -25,13 +25,13 @@
   letter-spacing: 0.03em;
   color: var(--nav-color);
 }
-.desc {
+.team-lists__card {
   padding: 30px;
 
   background: var(--main-color);
   border-radius: 0px 0px 4px 4px;
 }
-.team-desc {
+.team-lists__prof {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -45,7 +45,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.social-list-link {
+.social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,13 +61,13 @@
     background-color: var(--second-color);
   }
 }
-.social-list-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
   transition: fill var(--transition-duration) var(--transition-function);
 
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     fill: var(--main-color);
   }
 }
