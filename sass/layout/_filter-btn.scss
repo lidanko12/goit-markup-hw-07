@@ -7,11 +7,13 @@
   align-items: center;
   justify-content: center;
 }
-
-.btn-item:not(:last-child) {
-  margin-right: 8px;
-  justify-content: center;
+.btn-item {
+  &:not(:last-child) {
+    margin-right: 8px;
+    justify-content: center;
+  }
 }
+
 .btn {
   min-width: 84px;
   padding: 6px 22px;

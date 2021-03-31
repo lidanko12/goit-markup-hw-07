@@ -20,8 +20,10 @@
   align-items: center;
   margin-left: 93px;
 }
-.item:not(:last-child) {
-  margin-right: 50px;
+.item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .item-link {

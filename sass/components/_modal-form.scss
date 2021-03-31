@@ -107,6 +107,9 @@
     background-color: var(--second-color);
     border: none;
   }
+  .modal-checkbox:focus + &::before {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .modal-checkbox:focus + .modal-form-checkbox::before {

@@ -338,6 +338,10 @@ img {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
+.modal-checkbox:focus + .modal-form-checkbox::before {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
 .agree-link {
   color: var(--second-color);
 }

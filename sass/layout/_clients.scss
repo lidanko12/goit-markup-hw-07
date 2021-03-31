@@ -38,9 +38,10 @@
     fill: var(--second-color);
   }
 }
-
-.clients-list-item:hover,
-.clients-list-link-icon .clients-list-item:focus,
-.clients-list-link-icon {
+.clients-list-link-icon{
+  .clients-list-item:hover,
+& .clients-list-item:focus,
+& {
   border-color: var(--btn-active-background);
+}
 }
