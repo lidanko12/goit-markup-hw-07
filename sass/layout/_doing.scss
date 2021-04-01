@@ -8,15 +8,15 @@
   margin-top: -50px;
 }
 
-.doing-items {
+.doing-lists__items {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 50px;
 }
-.doing-pictures {
+.doing-lists__card {
   position: relative;
 }
-.pictures-title {
+.doing-lists__desc {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -24,7 +24,7 @@
   height: 23.8%;
   background-color: var(--title-pictures);
 }
-.pictures-description {
+.doing-lists__title {
   display: inline-block;
   position: absolute;
   padding: 27px 82px;

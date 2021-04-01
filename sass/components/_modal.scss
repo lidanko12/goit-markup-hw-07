@@ -11,7 +11,7 @@
   transition: transform var(--transition-duration) var(--transition-function);
 }
 
-.close-btn {
+.modal-window__close-btn {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--main-color);
 }
-.close-icon {
+.modal-window__close-icon {
   fill: currentColor;
   transition: fill var(--transition-duration) var(--transition-function);
   &:hover,

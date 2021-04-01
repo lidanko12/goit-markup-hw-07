@@ -11,13 +11,13 @@
   background-color: var(--overlay);
   transform: translateY(100%);
   transition: var(--transition-duration) var(--transition-function);
-  .portfolio-link:hover &,
-  .portfolio-link:focus & {
+  .portfolio-lists__link:hover &,
+  .portfolio-lists__link:focus & {
     transform: translateY(0);
   }
 }
 
-.card-text {
+.overlay-card__card-text {
   display: block;
   padding: 63px 24px;
   font-style: normal;

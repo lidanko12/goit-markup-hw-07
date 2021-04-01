@@ -5,15 +5,17 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-color);
-}
-.web {
-  color: var(--second-color);
-}
 
-.logo-light-theme {
-  color: var(--light-theme);
-}
+  &__accent-text {
+    color: var(--second-color);
+  }
+  &_theme {
+    &-light {
+      color: var(--light-theme);
+    }
 
-.logo-dark-theme {
-  color: var(--main-color);
+    &-dark {
+      color: var(--main-color);
+    }
+  }
 }

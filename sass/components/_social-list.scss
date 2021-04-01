@@ -1,14 +1,14 @@
 .soc-list {
   display: flex;
 }
-.soc-list-item {
+.soc-list__item {
   margin-right: 10px;
 }
-.soc-list-item :not(:last-child) {
+.soc-list__item :not(:last-child) {
   margin-right: 10px;
 }
 
-.soc-list-link {
+.soc-list__link {
   display: inline-flex;
   width: 44px;
   height: 44px;
@@ -24,8 +24,4 @@
   &:focus {
     background-color: var(--second-color);
   }
-}
-.soc-list-icon {
-  width: 20px;
-  height: 20px;
 }
