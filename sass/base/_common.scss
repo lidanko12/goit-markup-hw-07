@@ -15,3 +15,16 @@ ol {
 img {
   display: block;
 }
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  background: var(--main-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
